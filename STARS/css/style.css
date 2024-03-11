@@ -1,0 +1,12 @@
+.raiting{
+    display: inline-flex;
+    flex-direction: row-reverse;    
+}
+
+.raiting_item:hover{
+    content: url(../img/star1.png);
+}
+
+.raiting_item:hover~.raiting_item{
+    content: url(../img/star1.png);
+}

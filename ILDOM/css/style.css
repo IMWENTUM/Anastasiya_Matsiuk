@@ -105,6 +105,12 @@ body{
     font-size: 12px; 
     padding-top: 10px;
     display: inline-block;
+    vertical-align: 2px;
+}
+
+.star{
+    vertical-align: -2px;
+    margin-left: 2px;
 }
 
 .banner{
@@ -149,6 +155,7 @@ body{
     padding-right: 50px;
     display: inline-block;
     margin-bottom: -35px;
+    margin-top: 15px;
 }
 
 .scircle{
@@ -157,10 +164,240 @@ body{
     display: inline-block;
     margin-right: -60px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .twenty{
     color: #FAED38;
     font-size: 20px;
+}
+
+.badname{
+    font-size: 12px;
+    width: 149px;
+    height: 28px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.status{
+    padding-left: 15px;
+    color: #BA257D;
+    font-size: 12px;
+    padding-top: 2px;
+    vertical-align: 5px;
+}
+
+.reviews{
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: 2px;
+}
+
+.views{
+    display: inline-block;
+    padding-left: 5px;
+    color: #888888;
+    font-size: 12px;
+}
+
+.lastcent{
+    font-size: 10px;
+    color: #888888;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.newcent{
+    color: #333333;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.magazin{
+    background-color:#BA257D;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: 5px;
+    padding: 10px 33px;
+    font-size: 10px;
+ }
+
+ .new{
+    color: #333333;
+    font-size: 32px;
+    margin-top: 30px;
+ }
+
+ .strelka{
+    vertical-align: -4px;
+    padding-left: 10px;
+ }
+
+ .slider_item{
+    width: 197px;
+    height: 261px;
+    margin: 15px 16px 25px 0px;
+    float: left;
+ }
+
+ .slideshow{
+    background-color: #B3B3FF;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 77px;
+    height: 24px;
+    font-size: 10px;
+    vertical-align: 5px;
+    padding-top: 7px;
+    position: absolute;
+ }
+
+ .points{
+    background-position: 50px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+ }
+
+ .cardscent{
+    font-size: 20px;
+ }
+
+ .cardsline{
+    color: #888888;
+    font-size: 10px;
+    margin-left: 2px;
+ }
+
+ .onebad{
+    width: 140px;
+    height: 28px;
+    color: #888888;
+    font-size: 12px;
+    margin-top: 5px;
+ }
+
+ .onestar{
+    margin-top: 5px;
+    color: #BA257D;
+    font-size: 12px;
+    vertical-align: 2px;
+ }
+
+ .stares{
+    vertical-align: -1px;
+ }
+
+ .shopping{
+    margin: 9px 0px;
+ }
+
+ .slideshow_item{
+    background-color: #ff0000;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 77px;
+    height: 24px;
+    font-size: 10px;
+    vertical-align: 5px;
+    padding-top: 7px;
+    position: absolute;
+ }
+
+.slideshow_items{
+    background-color: #FAED38;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    width: 77px;
+    height: 24px;
+    font-size: 10px;
+    vertical-align: 5px;
+    padding-top: 7px;
+    position: absolute;
+}
+
+.cards{
+    width: 184px;
+    height: 255px;
+    background-image: url(../img/background.png);
+    padding-top: 15px;
+}
+
+.logotype{
+    background-image: url(../img/logo_me_mi.png);
+    background-size: contain;
+    width: 88.64px;
+    height: 30px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.border{
+    border: solid 1px #BA257D;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px 14px 0px 0px;
+}
+
+.sofa{
+    background-image: url(../img/sofa.png);
+    background-size: contain;
+    width: 157px;
+    height: 65px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 136px;
+    background-position: center bottom;
+}
+
+.text_new{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 2px;
+}
+
+.text_sofa{
+    text-align: center;
+}
+
+.block_category{
+    font-size: 32px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .card_four{
+    background-color: #FFFFFF;
+    width: 305px;
+    height: 159px;
+    border-radius: 5px;
+    background-image: url(../img/yellow_card.png);
+    padding-left: 140px;
+    padding-top: 60px;
+    overflow: hidden  
+}
+
+  .sofa_right{
+    background-image: url(../img/sofa.png);
+    background-size: contain;
+    width: 250px;
+    height: 104.55px;
+}
+
+.sum{
+
+}
+
+.light_mebel{
+    margin-right: 10px;
 }
