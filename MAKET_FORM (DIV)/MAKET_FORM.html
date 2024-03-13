@@ -11,49 +11,51 @@
 
     <title>MAKET_FORM</title>
 </head>
+<!--Я старалась сделать через label, но input не занимал 100% экрана. Да, здравствуют div!-->
 <body>
     <div class="forms">
         <p class="preface">Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
         <form action="TestForm.php" method="post">
-            <table class="table">
-                
                 <div class="article">
-                    <div>Название статьи:</div>
-                        <div><input class="text_item" type="text"></div>
+                    <div class="article_name">Название статьи:</div>
+                    <div><input class="article_item" type="text"></div>
                 </div>
                 
-               <!-- <tr>
-                    <td>Рубрика:</td>
-                    <td><select name="category">
-                        <option value="1">компьютерная техника</option>
-                        <option value="2">графика и дизайн</option>
-                        <option value="3">программирование</option>
-                    </select></td>
-                </tr>
+               <div>
+                    <div class="category">Рубрика:</div>
+                    <div>
+                        <select class="category_item" name="category">
+                            <option value="1">компьютерная техника</option>
+                            <option value="2">графика и дизайн</option>
+                            <option value="3">программирование</option>
+                        </select>
+                    </div>
+                </div>
                 
-                <tr>
-                    <td>Публикация:</td>
-                    <td>
-                        <input type="radio"><span class="syte">на сайте</span>
-                        <input type="radio"><span class="magazin">в журнале</span>
-                        <input type="radio"><span class="double">на сайте и в журнале</span>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>Разрешить комментарии:</td>
-                    <td><input class="comment" type="checkbox" name="comment" checked></td>
-                </tr>
+                <div>
+                    <div class="public">Публикация:</div>
+                    <div class="public_item">
+                        <input class="syte_rang" type="radio" name="radio" value="1">на сайте
+                        <input class="magazin_rang" type="radio" name="radio" value="2">в журнале
+                        <input class="two_rang" type="radio" name="radio" value="3">на сайте и в журнале
+                    </div>
+                </div>
                 
-                <tr>
-                    <td colspan="2">Текст статьи:<br>
-                    <textarea class="massage" name="massage"></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td><input class="push" type='submit' value='Опубликовать'></td>
-                </tr>-->
-            </table>
+               <div class="comments_second">
+                    <div class="comments">Разрешить комменатарии:</div>
+                    <input class="comments_item" type="checkbox" name="comments_item" id="comments_item" checked>
+               </div>
+                
+                <div>
+                   <div class="massage">Текст статьи:</div>
+                        <div class="massage_item">
+                            <textarea class="massage_rang" name="massage_item"></textarea>
+                        </div>
+                </div>
+                
+                <div>
+                    <input class="push" type='submit' value='Опубликовать'>
+                </div>
         </form>
     </div>
 </body>

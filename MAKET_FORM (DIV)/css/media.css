@@ -3,14 +3,27 @@
         margin: 0;
         padding: 0;
     }
-    
-    .forms{
-        margin: 5px;
-        border: double red 3px;
-        font-size: 15px;
+
+    body{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif!important;
     }
 
-    .tr{
-        display: contents;
+    .article_name, .category, .public, .massage{
+        display: inline-block;
+        float: left;
+        margin: 2px 12px;
     }
-}
+
+    .article_item, .category_item, .massage_rang{
+        margin-left: 12px;
+        width: 93%;
+    }
+
+    .push{
+        margin-left: 12px;
+    }
+
+    .syte_rang{
+        margin-left: 12px;
+    }

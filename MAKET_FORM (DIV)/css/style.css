@@ -19,14 +19,16 @@ td, input, select{
     margin: 3px 5px;
 }
 
-.syte, .magazin, .double{
+.syte{
     vertical-align: 2px;
 }
 
-.comment{
-    vertical-align: -2px;
-    margin-top: 8px;
-    margin-bottom: 10px;
+.magazin{
+    vertical-align: 2px;
+}
+
+.two{
+    vertical-align: 2px;
 }
 
 .massage{
@@ -36,4 +38,53 @@ td, input, select{
 
 .push{
     margin-left: 0px;
+}
+
+.article_name, .category, .public, .massage{
+    display: inline-block;
+    float: left;
+    margin: 5px 10px;
+}
+
+.article_item{
+    width: 89%;
+}
+
+.category_item{
+    margin-left: 67px;
+}
+
+.public_item{
+    display: inline-block;
+    vertical-align: -7px;
+}
+
+.massage_rang{
+    margin-left: 10px;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.comments{
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+.comments_item{
+    vertical-align: -2px;
+    display: inline-block;
+}
+
+.push{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.comments_second{
+    display: inline-block;
+    margin-left: -104px;
+}
+
+.syte_rang, .magazin_rang, .two_rang{
+    vertical-align: -2px;
 }
