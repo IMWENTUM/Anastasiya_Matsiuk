@@ -1,0 +1,47 @@
+.list{
+    margin: 5px;
+}
+
+p{
+    font-size: larger;
+}
+
+.biohazard{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.yin_yang{
+    position: absolute;
+    top: 245px;
+    left: 140px;
+}
+
+.man_woman{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+}
+
+.no_smoking{
+    position: absolute;
+    top: 105px;
+    left: 110px;
+}
+
+.images{
+    position: relative;
+    margin: auto;
+    width: 460px;
+    height: 460px;
+}
+
+.biohazard:hover, .man_woman:hover, .yin_yang:hover{
+    z-index: 5;
+}
+
+.no_smoking{
+    z-index: 1;
+}
+
